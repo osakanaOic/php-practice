@@ -10,7 +10,7 @@ echo $num / 2;
 
 // Q3 日付操作
 echo date("Y/m/d H:i:s");
-echo '現在時刻は、2024年05月08日 11時15分16秒です。';
+echo '現在時刻は、' . date("Y年m月d日 H時i分s秒") . 'です。';
 
 // Q4 条件分岐-1 if文
 $device = 'windows';
