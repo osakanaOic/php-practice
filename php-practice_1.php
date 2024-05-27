@@ -1,11 +1,11 @@
 <?php
 // Q1 変数と文字列
 $name = '三瓶';
-echo $name;
+echo '私の名前は' . $name . 'です';
 
 // Q2 四則演算
 $num = 5 * 4;
-echo "$num";
+echo $num;
 echo $num / 2;
 
 // Q3 日付操作
@@ -23,12 +23,20 @@ if ($device === 'windows' || $device ==='mac') {
 
 // Q5 条件分岐-2 三項演算子
 $age = 18;
-$message = ($age < 18) ? '未成年です' '成人です';
+$message = ($age < 18) ? '未成年です' : '成人です';
 
 echo $message;
 
 // Q6 配列
-$prefectures = ['東京都', '千葉県', '栃木県','茨城県','埼玉県','群馬県','神奈川県'];
+$prefectures = [
+  '東京都',
+  '千葉県',
+  '栃木県',
+  '茨城県',
+  '埼玉県',
+  '群馬県',
+  '神奈川県'
+  ];
 // var_dump($prefectures);
 
 echo $prefectures[2] . 'と' . $prefectures[3] . 'は関東地方の都道府県です。';
